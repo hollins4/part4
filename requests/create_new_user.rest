@@ -1,0 +1,51 @@
+GET http://localhost:3003/api/users
+
+#####
+
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "hellas",
+    "name": "Mark Hellens",
+    "password": "SpecialH"
+    
+}
+##########
+
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "marty",
+    "name": "Martin Whisker",
+    "password": "mmmWiskey"
+    
+}
+
+#######
+
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "ba",
+    "name": "Mark Hellens",
+    "password": "SpecialH"
+    
+}
+
+#######
+
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "short password",
+    "name": "Not right",
+    "password": "S"
+    
+}
+
+
+

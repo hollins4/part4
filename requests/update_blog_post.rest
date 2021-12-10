@@ -1,0 +1,22 @@
+GET http://localhost:3003/api/blogs
+
+####
+
+PUT  http://localhost:3003/api/blogs/61a0de86d94eee6ed75fe616
+Content-Type: application/json
+
+{ 
+   "likes": 99
+}
+
+####
+PUT  http://localhost:3003/api/blogs/61a0de86d94eee6ed75fe616
+Content-Type: application/json
+
+{ 
+   "likes": 1
+}
+
+
+
+

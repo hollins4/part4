@@ -1,0 +1,50 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFhYzM0YTA1NjgxMDU2MTUzZWMzZmM2IiwiaWF0IjoxNjM4NzQ0MjM2fQ.h0e3_zCuqZI7vWydtiNjJps7cewcEygcIF1iezrIF1A
+
+{
+    "title": "Game of Thrones",
+    "author": "GRRM",
+    "url": "https://georgerrmartin.com/notablog/",
+    "likes": 5
+}
+
+#######
+
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFhYzM0YTA1NjgxMDU2MTUzZWMzZmM2IiwiaWF0IjoxNjM4NzQ0MjM2fQ.h0e3_zCuqZI7vWydtiNjJps7cewcEygcIF1iezrIF1A
+
+{
+    "title": "Where in the World am I From",
+    "author": "Arto Helling",
+    "url": "http://maps.google.com",
+    "likes": 20
+}
+
+######
+
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcnR5IiwiaWQiOiI2MWFjMzRhMzU2ODEwNTYxNTNlYzNmY2EiLCJpYXQiOjE2Mzg3NDQ5MjV9.Tx4HiWo1JOEnoq_mEYwT_CUF47R67Uu-GbX_030iIQg
+
+{
+    "title": "I love to hate coding",
+    "author": "Will I Am",
+    "url": "https://thecodinglove.com/",
+    "likes": 1
+}
+
+#####
+
+
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hcnR5IiwiaWQiOiI2MWFjMzRhMzU2ODEwNTYxNTNlYzNmY2EiLCJpYXQiOjE2Mzg3NDQ5MjV9.Tx4HiWo1JOEnoq_mEYwT_CUF47R67Uu-GbX_030iIQg
+
+{
+    "title": "Trust the process and you will learn",
+    "author": "McRando",
+    "url": "https://www.reddit.com",
+    "likes": 8
+}
